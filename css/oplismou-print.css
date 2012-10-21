@@ -1,0 +1,87 @@
+.oplismou-logo {
+	margin: 0 auto;
+	clear: both;
+}
+
+.underlineme {
+text-decoration: underline;
+}
+
+.boldme {
+	font-weight: bold;
+	font-size: larger;
+}
+
+.top-head {
+	float: right;
+	padding: 5px;
+	border: 2px solid #666;
+}
+
+.bottom-head {
+font-size: larger;
+clear: both; 
+overflow: auto;
+}
+
+.left-bh {
+line-height: 40px;
+float: left; 
+}
+
+.right-bh {
+line-height: 38px;
+float: right;text-decoration: underline;
+}
+
+.deltio {
+margin-top: 20px;
+text-align: center;
+text-decoration: underline;
+font-size: larger;
+margin-bottom: 10px;
+}
+
+.epitropi_table {
+margin: 0 auto;
+margin-top:7px;
+}
+
+.epitropi_table td {
+padding-right: 80px;
+}
+
+.proevi {
+text-align: center; 
+margin: 0 auto; 
+padding: 20px 0 10px 0;
+}
+
+.temaxia td {
+padding: 0 10px;
+border: 1px solid #999;
+}
+
+td.material_column {
+text-align: left !important;
+width: 600px;
+}
+
+.signature-start {
+	margin: 5px 0;
+	text-align: center;
+}
+
+.sign-left {
+float: left;
+width: 80%;
+}
+
+.sign-right {
+float: right;
+width: 20%;
+}
+
+.print-button {
+display: none;
+}

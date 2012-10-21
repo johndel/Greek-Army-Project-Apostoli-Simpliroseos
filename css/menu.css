@@ -1,0 +1,163 @@
+#horizontal-menu {
+  background: url("/images/menu.png");
+  height: 42px;
+  line-height: 42px;
+  box-shadow: 1px 1px 5px #888;
+}
+
+#horizontal-menu ul {
+  list-style: none;
+  z-index: 10;
+}
+
+#horizontal-menu ul li {
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+#horizontal-menu ul li a {
+  color: #131313;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 10px;
+  height: 42px;
+  text-shadow: 1px 1px 1px #ccc;
+}
+
+#horizontal-menu ul li a:hover {
+  background: url("/images/menu.png") 0px -42px;
+  border-left: 1px solid #444;
+  border-right: 1px solid #444;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000; 
+  padding: 0 9px;
+}
+
+
+/* Sub Menu */
+
+.subnav {
+background: #9FC246;
+box-shadow: 0px 1px 4px #888;
+position: absolute;
+width: 430px;
+margin: 0px;
+padding: 0;
+}
+
+#horizontal-menu ul.subnav li {
+display: block;
+clear: both;
+height: 30px;
+line-height: 30px;
+padding: 0;
+margin: 0;
+text-indent: 10px;
+}
+
+#horizontal-menu ul.subnav li a {
+display: block;
+font-size: 14px;
+border-bottom: 1px solid #A9CB4A;
+height: 30px;
+line-height: 30px;
+margin: 0;
+padding: 0;
+}
+
+#horizontal-menu ul.subnav li a:hover {
+box-shadow: 0 0 0;
+border: 0;
+background: #799535;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+	LEVEL ONE
+*/
+ul.dropdown                         { position: relative; padding: 0; margin: 0;}
+ul.dropdown li                      { float: left; zoom: 1; }
+
+#horizontal-menu ul.dropdown li a.hover { 
+  position: relative; 
+  background: url("/images/menu.png") 0px -42px;
+  border-left: 1px solid #444;
+  border-right: 1px solid #444;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000; 
+  padding: 0 9px;
+}
+
+#horizontal-menu ul.dropdown li.hover .top-list {
+  background: url("/images/menu.png") 0px -42px;
+  border-left: 1px solid #444;
+  border-right: 1px solid #444;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000; 
+  padding: 0 9px;
+}
+
+
+
+/* 
+	LEVEL TWO
+*/
+ul.dropdown ul 						{ visibility: hidden; position: absolute; }
+ul.dropdown ul li 					{ float: none; }
+									  
+                                    /* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a					{ border-right: none; width: 100%; display: inline-block; } 
+
+/* 
+	LEVEL THREE
+*/
+ul.dropdown ul ul 				{ left: 100%; top: 0; }
+ul.dropdown li:hover > ul 			{ visibility: visible; }
+
+.three-level-arrow {
+background: url("/images/south-street/ui-icons_ffffff_256x240.png") -34px -20px;
+display: inline-block;
+position: relative;
+top: 1px;
+left: 10px;
+height: 10px;
+width: 10px;
+}
+
+.three-level-menu {
+background: #9FC246;
+margin: 0;
+padding: 0;
+border: 1px solid #A9CB4A;
+margin-top: 180px;
+width: 340px;
+position: relative;
+z-index: 10;
+margin-left: -205px;
+}
+
+.pinakas-a-pirxies {
+margin-top: 30px;
+margin-left: -190px;
+}
+
+.pinakas-b-pirxies {
+margin-top: 60px;
+margin-left: -190px;
+}
+
+.pinakas-en-ylikou {
+margin-top: 90px;
+margin-left: -20px;
+}

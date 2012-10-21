@@ -1,0 +1,98 @@
+.red-text {
+	color: red;
+}
+
+.vertical-text {
+	padding: 40px 0;
+
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.mini-header {
+background: #ddd;
+}
+
+tr.odd {
+background: #fff;
+}
+
+tr.even {
+
+}
+
+.pinakas-en-monada {
+font-size: 14px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.apopoy {
+padding: 60px 15px;
+text-align: center;
+vertical-align: middle;
+}
+
+.apopoy-image {
+	background: url("/images/png-letters/apopoy.png") center center no-repeat;
+}
+
+.apomiwsi {
+padding: 60px 15px;
+text-align: center;
+vertical-align: middle;
+}
+
+.apomiwsi-image {
+background: url("/images/png-letters/apomiwsi.png") center center no-repeat;
+}
+
+.sinolo {
+padding: 60 15px;
+text-align: center;
+vertical-align: middle;
+}
+
+.sinolo-image {
+background: url("/images/png-letters/sinolo.png") center center no-repeat;
+}
+
+.provlepomena {
+padding: 60 15px;
+text-align: center;
+vertical-align: middle;
+}
+
+.provlepomena-image {
+background: url("/images/png-letters/provlepomena.png") center center no-repeat;
+}
+
+.iparxousa {
+padding: 60 15px;
+text-align: center;
+vertical-align: middle;
+}
+
+.iparxousa-image {
+background: url("/images/png-letters/iparxousa.png") center center no-repeat;
+}
+
+.header-center {
+text-align: center;
+vertical-align: middle;
+
+}
+
+.pinakas-en-monada td.text-left-header {
+}
+
+.pinakas-en-monada td {
+text-align: center;
+vertical-align: middle;
+}
+
+

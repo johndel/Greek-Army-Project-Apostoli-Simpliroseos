@@ -1,0 +1,288 @@
+body {
+  background-image: url("/images/background.png");
+}
+
+h4 {
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+#logo {
+  background: url("/images/logo.png") center center no-repeat;
+  position: relative;
+margin:0 auto;
+  height: 110px;
+  padding: 0;
+width: 100%;
+clear: both;
+}
+
+#link-to-start {
+display: block;
+width: 100%;
+  height: 110px;
+float: left;
+}
+
+#main {
+  margin: 20px;
+}
+
+.nice-table th {
+padding: 5px;
+}
+
+.nice-table.no-border td, .nice-table.no-border th  {
+border: 1px solid #aaa;
+}
+
+.nice-table td, .nice-table th {
+border: 1px solid #000;
+text-align: center;
+vertical-align: middle;
+}
+
+.size-number-table {
+border: 0;
+}
+
+.size-number-table td {
+border: 1px solid #ccc;
+text-align: center;
+width: 130px;
+}
+
+
+
+
+.add-material, .add-material-a, .add-oplismou-material {
+/*
+background: url("/images/add-button.png") no-repeat;
+height: 14px;
+width: 14px;
+display: inline-block;
+*/
+}
+
+.disappear {
+display: none;
+}
+
+.appear {
+display: block;
+}
+
+.vertical {
+-webkit-transform: rotate(-90deg);
+-moz-transform: rotate(-90deg);
+padding: 0 !important;
+height: 140px;
+}
+
+
+.material-header {
+padding: 0;
+margin: 50px 0 0 0;
+top: 0px;
+color: #666;
+}
+
+.general_sum {
+font-weight: bold;
+text-align: center;
+}
+
+.as-number {
+position: relative;
+font-weight: bold;
+font-size: 36px;
+color: #9bbf43;
+text-align: right;
+float: right;
+width: 540px;
+text-shadow: 0px 1px 1px #000;
+padding-right: 10px;
+}
+
+.contact td {
+padding: 5px 25px;
+}
+
+#ui-datepicker-div {
+	z-index: 11 !important;
+}
+
+
+.ui-state-default {
+padding: 10px;
+padding-left: 5px;
+}
+
+.DataTables_sort_wrapper {
+float: left;
+text-align: left;
+white-space: nowrap;
+text-indent: 0px;
+}
+
+.DataTables_sort_icon {
+float: left;
+}
+
+@-moz-document url-prefix() {
+	.DataTables_sort_icon {
+		margin-top: -18px;
+	}
+	.DataTables_sort_wrapper {
+		text-indent: 20px;
+	}
+}
+
+#myTable_filter {
+	position: relative;
+	left: -18px;
+	margin: 10px 0 5px 0;
+}
+
+.ui-widget-header {
+background: none;
+color: none;
+border: 0;
+}
+
+.odd td {
+background-color: #ddffdd;
+-webkit-print-color-adjust: exact;
+}
+
+.odd td.sorting_1 {
+background-color: #c4ffc4 !important;
+}
+
+.even td.sorting_1 {
+background-color: #d5ffd5 !important;
+}
+
+.even td {
+background-color: #eeffee;
+}
+
+#myTable tr th {
+background: #84ad34!important;
+text-shadow: 0px 1px 1px #444;
+}
+
+#myTable_filter {
+float: left;
+margin-left: 20px;
+text-align: left;
+}
+
+.td-vertical-align {
+	text-align: center; position: relative; vertical-align: middle;
+}
+
+.last_row {
+border-bottom: 2px solid #000;
+}
+
+.eliponta-materials {
+	background-color: #cc0000 !important;
+	color: #fff;
+	-webkit-print-color-adjust: exact;
+}
+
+.pleonazonta-materials {
+	-webkit-print-color-adjust: exact;
+	background-color: #8bff4b !important;
+	color: #000;
+}
+
+.highlight td.sorting_1, .highlight td{
+	background-color: #beff6a !important;
+}
+
+
+.disabled-options {
+display: none;
+}
+
+.dataTables_filter input {
+height: 25px;
+margin-top: 7px;
+}
+
+a.btn {
+	color: #000;
+}
+
+a.btn-primary, a.btn-danger, a.btn-success {
+	color: #fff;
+}
+
+a.btn-warning:hover {
+	color: #000;
+}
+
+.formbox, input, .input-small, .input-min, .input-medium {
+height: 25px !important;
+}
+
+#subunitstable_filter {
+float: left;
+width: 380px;
+text-align: 0;
+margin: 0 !important;
+padding: 0 !important;
+}
+
+#subunitstable_filter {
+float: left;
+margin-left: 20px;
+text-align: left;
+}
+
+#subunitstable_filter input {
+height: 16px !important;
+}
+
+#subunitstable tr th {
+background: #84ad34!important;
+text-shadow: 0px 1px 1px #444;
+}
+
+
+#subunitstable th{
+color: #fff;
+background-color: #84AD34;
+}
+
+.editable:hover {
+	background-color: #f9ff93; 
+	cursor: pointer;
+}
+
+.editable input {
+	height: 18px !important;
+}
+
+.colorpicker input {
+	height: 13px !important;
+}
+
+.colorpickerhandle {
+	width: 70px !important;
+}
+
+ul.entipa {
+position: relative;
+margin-left: -335px;
+margin-top: 240px;
+}
+
+
+.efedroi-third-menu {
+margin-top: 120px !important;
+margin-left: -15px !important;
+width: 370px !important;
+}

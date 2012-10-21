@@ -1,0 +1,166 @@
+.oplismou-logo {
+	margin: 0 auto;
+	clear: both;
+}
+
+.underlineme {
+text-decoration: underline;
+}
+
+.boldme {
+	font-weight: bold;
+	font-size: larger;
+}
+
+.top-head {
+	float: right;
+	padding: 0 5px;
+    clear: both;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 26px;
+}
+
+.bottom-head {
+font-size: larger;
+clear: both; 
+overflow: auto;
+}
+
+.left-bh {
+line-height: 40px;
+float: left;
+font-size: 24px;
+font-weight: bold;
+width: 33%;
+}
+
+.center-bh {
+width: 34%;
+float: left;
+
+}
+
+.right-bh {
+line-height: 38px;
+float: right;
+text-decoration: underline;
+width: 33%;
+
+}
+
+.top-heading {
+overflow: auto;
+}
+
+.package-info {
+font-size: 16px;
+float: left;
+width: 180px;
+line-height: 14px;
+font-weight: bold;
+}
+
+.deltio {
+text-align: center;
+font-size: larger;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.first-head {
+font-size: 28px;
+width: 150px;
+clear: both;
+margin: 0 auto;
+border-bottom: 2px solid #000;
+}
+
+.second-head {
+font-size: 20px;
+width: 520px;
+clear: both;
+margin: 0 auto;
+border-bottom: 2px solid #000;
+}
+
+.epitropi_table {
+margin: 0 auto;
+margin-top:7px;
+}
+
+.epitropi_table td {
+padding-right: 80px;
+}
+
+.temaxia td, .temaxia th {
+padding: 8px 10px;
+border: 1px solid #999;
+}
+
+td.material_column {
+text-align: left !important;
+width: 600px;
+}
+
+.signature-start {
+	margin: 5px 0;
+	text-align: center;
+}
+
+.sign-left {
+float: left;
+width: 80%;
+}
+
+.sign-right {
+float: right;
+width: 20%;
+}
+
+.print-button {
+display: none;
+}
+
+table.temaxia {
+width:: 300px;
+}
+
+.background {
+display: none;
+}
+
+tr.temaxio-row {
+width: 50px;
+}
+
+.nowrapper {
+white-space: nowrap;
+}
+
+.last-row {
+height: 50px;
+}
+
+.print-fit {
+width: 62%;
+}
+
+.right-table  {
+}
+
+.temaxia {
+float: left;
+}
+
+.circle-image {
+float: left;
+width: 200px;
+}
+
+.circle-image img{
+width: 200px;
+}
+
+
+
